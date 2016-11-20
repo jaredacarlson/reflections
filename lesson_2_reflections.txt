@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository a hidden folder named .git is created in
+the main directory.  This folder contains meta data about all the changes made
+to files that are being tracked within the repository.
