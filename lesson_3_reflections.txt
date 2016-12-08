@@ -9,3 +9,22 @@ automatically stay up-to-date with your remote repository?
 I may want to experiment with changes or keep my local repository at a specific
 version in which case having Git automatically pull changes would thwart those
 efforts.
+
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Forks - copy of a remote repository from someone else's account to your account
+        on GitHub. You use it when you want to copy that person's repository
+        and make changes to it, but do not have the permissions to do so.
+
+Clones - Another method of copying a repository.  This is usually used to make
+         a copy of a remote repository down to your local machine.  It can also
+         be used to copy a local repository to another directory on your local
+         machine.
+
+Branch - A branch is a label for a set of commits that use the main branch,but
+         "branch off" to make an experimental version of the code.  Commits can
+         be added to both the master and branched versions of the code, which
+         can then be merged back together if the new changes are fit for the
+         master branch. 
