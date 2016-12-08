@@ -13,3 +13,46 @@ working directory and place it before you commit it to the local repository
 to be tracked. It allows you to choose one-by-one the files you want to place
 in the repository without having to place all of the contents of the working
 directory in the repository.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can add to the staging area only the files you want to commit for that
+logical change.  Once in the staging area, you can commit.  You can then repeat
+this for any remaining files with changes that need to be committed, but for
+a separate logical problem you solve with that code.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches would help when I want to create an experimental branch in which I
+test out features that I don't know if I will put into the master branch.  Branches
+would also help if I want to created a different version of the code for some
+purpose (i.e., different language, easier version).  Branches help by allowing
+me to keep a master version of the code, but at the same time create different
+versions that I can experiment on without affecting the master branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize the branch structure by forcing me to decide how
+these things relate to each other spatially and sequentially which helps me
+more clearly delineate the internal structure of the commits.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of merging two branches together is all of the changes from both
+branches put into one branch.  We represent it in the diagram that way because
+we usually merge one branch back into the master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+The pros of Git's automatic merging is that it is done quickly, but a con
+comes into play in that you don't see exactly how it merges all the code.
+Manual merges force you to resolve conflicts and understand how the code will
+be merged at a more granular level.
