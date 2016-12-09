@@ -1,6 +1,8 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your
+work local?
 
-You would want to use a remote repository when you are sharing code or collaborating on a project with other people.
+You would want to use a remote repository when you are sharing code or
+collaborating on a project with other people.
 
 
 Why might you want to always pull changes manually rather than having Git
@@ -46,3 +48,16 @@ Collaboration would probably done within some directory structure on a server.
 It may be easier to see everything that has been done in front of you, but
 without using Git and GitHub to compare differences and resolve conflicts, it
 would be very difficult to go through and do this by hand.
+
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+You might make changes in a separate branch when your master branch is the
+production branch and cannot be touched.  In addition, making changes to a
+separate branch in this situation is easier when collaborating with other coders
+on this project.  Making changes on a separate branch allows you to experiment
+with changes while preserving the integrity of the production code.  On the
+other hand, making changes to master directly makes for an easier merging
+process although simultaneous merges from many collaborators could introduce
+inconsistencies into the code base.
