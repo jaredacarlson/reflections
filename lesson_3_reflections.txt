@@ -37,3 +37,12 @@ The benefit is that you can compare your master branch to the locally stored
 copy of remote.  Git status can then tell you if you are ahead or behind or in
 conflict with origin/master.  You can also perform git diff to see the exact
 differences in the files and to resolve the conflicts.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+Collaboration would probably done within some directory structure on a server.
+It may be easier to see everything that has been done in front of you, but
+without using Git and GitHub to compare differences and resolve conflicts, it
+would be very difficult to go through and do this by hand.
